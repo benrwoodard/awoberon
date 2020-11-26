@@ -1,4 +1,4 @@
-Package: awoberon
+Package: awoberonr
 Type: Package
 Title: Use Oberon JSON string from the debugger to pull data into R
 Version: 0.0.0.9250
