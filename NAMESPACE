@@ -2,6 +2,7 @@
 
 export(aw_report)
 export(aw_token)
+export(get_me)
 import(assertthat)
 import(dplyr)
 import(httr)
