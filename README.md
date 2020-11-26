@@ -1,8 +1,8 @@
-# awoberon
+# awoberonr
 
 ## Analysis Workspace data extracter
 
-Use the debugger JSON request string found in the OberonXML 
+Use the generated JSON request string found in the OberonXML Debugger inside Analysis Workspace
   
 ### How to get started
 
@@ -39,13 +39,12 @@ This file is essential to keeping your information secure. It also speeds up ana
       * `AW_CLIENT_ID` - OAuth client id found in the Adobe Developer Console
       * `AW_CLIENT_SECRET` - OAuth client secret key found in the Adobe Developer Console
 
-  3. Add Company_id and Reportsuite_id (optional)
+  3. Add Company_id (optional)
 
       * `AW_COMPANY_ID` - Using the function 'get_me()' you can see all the companies you have access to.
-      * `AW_REPORTSUITE_ID` - Using the function "aw_get_reportsuites(company_id = '')" you can see all the report suite ids you can use within the chosen company.
 
-After defining these 4 variables in the .Renviron file, restart your session.  Once restart is complete reload
-the adobeanalyticsr library, you should be able to run your first data extract using using `aw_report()`.
+After defining these 3 variables in the .Renviron file, restart your session.  Once restart is complete reload
+the awoberonr library, you should be able to run your first data extract using using `aw_report("filepath.json")`.
 
 ### Getting the JSON file.
 
