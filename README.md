@@ -3,6 +3,14 @@
 ## Analysis Workspace data extracter
 
 Use the generated JSON request string found in the OberonXML Debugger inside Analysis Workspace to pull data directly into R.  Starter package for understanding the new Adobe Analytics API 2.0 which powers Analysis Workspace.
+
+### Install the package
+
+```
+library(devtools)  
+install_github('benrwoodard/awoberonr')  
+library(awoberonr) 
+``` 
   
 ### How to get started
 
