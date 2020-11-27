@@ -7,8 +7,12 @@ Use the generated JSON request string found in the OberonXML Debugger inside Ana
 ### Install the package
 
 ```
-library(devtools)  
-install_github('benrwoodard/awoberonr')  
+# Install devtools from CRAN
+install.packages("devtools")
+
+#install awoberonr from github
+devtools::install_github('benrwoodard/awoberonr') 
+#load the pacakge
 library(awoberonr) 
 ``` 
   
