@@ -1,7 +1,7 @@
 Package: awoberonr
 Type: Package
 Title: Use Oberon JSON string from the debugger to pull data into R
-Version: 0.0.0.9251
+Version: 0.0.0.9252
 Description: Connect to the Adobe Analytics API v2.0 which powers Analysis Workspace. This package is meant to be an introduction to the new Adobe Analytics API which powers Analysis Workspace.
 Authors@R: c(person("Ben", "Woodard", email = "benrwoodard@gmail.com", role = c("aut", "cre")),
     person("Tim", "Wilson", email = "timwilson7@gmail.com", role = "aut"))
